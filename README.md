@@ -48,7 +48,7 @@
 *   Rédaction d'un fichier `docker-compose.yml` orchestrant trois services : `app`, `prometheus` et `grafana` dans un réseau isolé.
 
 ---
-
+   
 ## 📸 4. Résultats et Captures d'écran
 *   *Vérification des endpoints*
  
