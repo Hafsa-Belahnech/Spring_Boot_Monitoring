@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 5s # Il va lire les données toutes les 5 secondes
+
+rule_files:
+  - "rules.yml"
+
+
+scrape_configs:
+  - job_name: 'spring-boot-app'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['app:8080']
